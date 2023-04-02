@@ -19,7 +19,7 @@ function App() {
     <>
     <NoteState>
       <AlertState>
-    <Router>
+    <Router basename='/NoteMe'>
      <Navbar/>
      <div className="container">
       <Routes>
